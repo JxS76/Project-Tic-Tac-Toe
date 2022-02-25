@@ -1,9 +1,9 @@
+board = []
 
-
-def create_board(self):
-        for i in range(3):
-            row = []
-            for j in range(3):
-                row.append('-')
-            self.board.append(row)
-        print(row)
+def create_board():
+    for i in range(3):
+        row = []
+        for j in range(3):
+            row.append([False])
+        board.append(row)
+    print(board)
